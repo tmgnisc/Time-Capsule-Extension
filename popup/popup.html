@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Capsule Bookmark</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="header">
+        <h1>Set Bookmark Reminder</h1>
+        <img src="../icons/nischal tamang.jpg" alt="Logo" class="popup-logo" />
+      </div>
+      
+      <div class="form-container">
+        <input type="text" id="bookmark-title" placeholder="Enter bookmark title" />
+        <input type="datetime-local" id="reminder-time" />
+        <button id="save-bookmark">Save Bookmark</button>
+      </div>
+
+      <div id="message"></div>
+
+      <footer>
+        <p>Created By Nischal</p>
+      </footer>
+    </div>
+
+    <script src="./popup.js"></script>
+  </body>
+</html>
